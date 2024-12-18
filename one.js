@@ -1,0 +1,1 @@
+<button onclick="window.location.href='untitled-1.html'">Explore</button>

@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #F7F6FF;
+}
+
+.main{
+    width: 100%;
+    align-items: center;
+    background-color: white;
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 40px;
+  padding-top: 10px;
+  display: flex;
+}
+.logo{
+    color: #188AD6;
+    font-size: 20px;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    padding-left: 5px;
+    float: left;
+    padding-top: 10px;
+    white-space: nowrap;
+    margin-top: 2px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+    white-space: nowrap;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 115px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: black;
+    font-family: poppins, Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+    align-items: center;
+    justify-content: center;
+}
+ul li a:hover{
+    color: #188AD6;
+}
+.btn1, .btn2{
+    width: 80px;
+    float: right;
+    height: 32px;
+    border-radius: 10px;
+border: 1px solid #188AD6;
+cursor: pointer;
+margin-top: 20px;
+justify-content: space-around;
+margin-right: 15px;
+}
+
+.btn1{
+    background-color: #188AD6;
+    color: white;
+}
+.btn2{
+    background-color: white;
+    color: #188AD6;
+}
+.content{
+    margin-top: 25px;
+    padding-left: 65px;
+}
+.text{
+    display: grid;
+    margin-top: -400px;
+    padding-right: 100px;
+    float: inline-end;
+   font-size:25px; 
+   padding left: 100px;
+}
+.text span{
+    color: #188AD6;
+}
+.text h2{
+    text-align: center;
+}
+button{
+    background-color: #188AD6;
+    color: white;
+    margin-top: -10px;
+    border-radius: 10px;
+    height: 35px;
+    text-align: center;
+    float: right;
+    width: 150px;
+    border: 1px solid #188AD6;
+    margin-right: 100px;
+}
+
+.box{
+    width: 15%;
+    background-color: #3C179A26;
+    text-align: center;
+    vertical-align: middle;
+    height: 100px;
+    border: 1px solid #3C179A1A;
+    border-radius: 10px;
+    line-height: 300%; 
+}
+.box h2{
+    color: #188AD6;
+}
+.box p{
+    font-weight: 600;
+}
+.paragraph{
+    width: 15%;
+    background-color: #FFFFFF;
+    text-align: center;
+    height: 100px;
+    border: 1px solid #3C179A1A;
+    border-radius: 10px;
+    line-height: 300%; 
+}
+.paragraph h2{
+    color: #188AD6;
+}
+.paragraph p{
+    font-weight: 600;
+}
+.Last{
+    width: 15%;
+    background-color: #E0F7FA;
+    text-align: center;
+    height: 100px;
+    border: 1px solid #3C179A1A;
+    border-radius: 10px;
+    line-height: 300%; 
+}
+.Last h2{
+    color: #188AD6;
+}
+.Last p{
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    padding-left: 65px;
+    text-align: center;
+}
